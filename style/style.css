@@ -76,3 +76,24 @@
     margin-top: 65px;
     border-radius: 30px;
 }
+.countflex{
+    display: flex;
+    justify-content: space-evenly;
+}
+.countdesign{
+    color:#4E47FF;
+    font-weight: bold;
+    font-size: 40px;
+}
+.producttitle{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 30px;
+}
+.producthead{
+    background-color: #c6c4fa;
+}
+.optiondesign{
+    font-size: 18px;
+    color: #535355;
+}
