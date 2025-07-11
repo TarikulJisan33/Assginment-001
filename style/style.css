@@ -97,3 +97,245 @@
     font-size: 18px;
     color: #535355;
 }
+.usertitle{
+    text-align: center;
+    font-size: 40px;
+    
+}
+.img1 {
+    display: flex
+;
+}
+.card-row {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap; /* Optional: wrap on smaller screens */
+  justify-content: center;
+  padding: 20px;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+.stars {
+  color: #fbbf24;
+  font-size: 1.2rem;
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.reviewer img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+h1.title1 {
+    text-align: center;
+    font-size: 70px;
+}
+p.pa {
+    text-align: center;
+}
+button.btn1 {
+    margin-left: 40%;
+}
+button.btn1 {
+    font-size: 20px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: green;
+    color: aliceblue;
+}
+img.img1 {
+    /* text-align: center; */
+    margin-inline: auto;
+    margin-top: 20px;
+    border-radius: px;
+    border-radius: 10px;
+}
+img.img1 {
+    width: 60%;
+}
+.focus-section {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #f9fafb; /* Light background */
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+.focus-section h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #111827;
+}
+
+.focus-section p {
+  font-size: 1rem;
+  color: #6b7280;
+  margin-bottom: 20px;
+}
+
+.cta-btn {
+  background-color: #6366f1; /* Indigo */
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 40px;
+}
+
+.cta-btn:hover {
+  background-color: #4f46e5;
+}
+
+.hero-card {
+  
+  width: 60%;
+  margin: 0 auto;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.1);
+  border: 4px solid #ef4444; 
+}
+
+.hero-card img {
+  width: 100%;
+  display: block;
+  border-radius: 0; 
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #f9fafb;
+}
+
+.contact-section {
+  background-color: #f1f5ff; 
+  padding: 80px 20px;
+}
+
+.contact-container {
+  display: flex;
+  max-width: 1000px;
+  margin: auto;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.contact-text h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #111827;
+  margin: 0;
+}
+
+.contact-form {
+  flex: 1;
+  min-width: 320px;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form label {
+  font-weight: 600;
+  color: #374151;
+  margin-bottom: 4px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px 14px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: #fff;
+  resize: none;
+  transition: border-color 0.2s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #6366f1; 
+  outline: none;
+}
+
+.contact-form button {
+  background-color: #6366f1;
+  color: white;
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #4f46e5;
+}
+.contact-container {
+    justify-content: space-between;
+}
+
+.footer {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #ffffff;
+  color: #6b7280; 
+  font-family: Arial, sans-serif;
+}
+
+.logo {
+  font-size: 48px;
+  font-weight: bold;
+  color: #3b82f6; 
+  margin-bottom: 16px;
+}
+
+.description {
+  max-width: 600px;
+  margin: 0 auto 24px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  font-size: 14px;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: #6b7280;
+  transition: color 0.3s ease;
+}
+
+.footer-nav a:hover {
+  color: #3b82f6;
+}
