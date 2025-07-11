@@ -1,9 +1,44 @@
-*{
-    padding: 0;
-    margin: 0;
+
+/* nav section */
+.navhead{
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
 }
-.he{
-    color: blue;
-    size: 10px;
-   
+.container{
+    background-image: url(../Assets/Hero-bg.png);
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.logo{
+    color: #4E47FF;
+}
+.btn{
+    color: white;
+    background-color: #4E47FF;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+/* hero section */
+.herotitle{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+.herobtn{
+    text-align: center;
+    
+    color: white;
+    background-color: #4E47FF;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    
+}
+.herobtnhead{
+  display: flex;
+  justify-content: center;
+
+  
 }
